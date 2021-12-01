@@ -1,4 +1,4 @@
-add-apt-repository ppa:deadsnakes/ppa
+add-apt-repository -y ppa:deadsnakes/ppa
 sudo apt install -y python3.9 python3.9-dev python3-pip python3.9-distutils ruby ruby-dev xautomation guake
 wget https://bootstrap.pypa.io/get-pip.py
 pip3 install --upgrade setuptools
