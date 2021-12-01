@@ -6,6 +6,7 @@ pip3 install --upgrade pip
 pip3 install --upgrade distlib
 python3.9 get-pip.py
 rm get-pip.py
+python3.9 -m pip install -U setuptools pip distlib
 python3.9 -m pip install pwncat-cs
 # python3.9 -m pip install -U git+https://github.com/calebstewart/paramiko
 # python3.9 -m pip install git+https://github.com/JohnHammond/base64io-python
